@@ -92,7 +92,7 @@ main{
     margin: 0 auto;
 }
 
-/* about section */
+/* about section style start */
 .about{
     background-color: #FFF8F3;
     margin: 130px  0;
@@ -117,6 +117,7 @@ main{
     font-size: 20px;
     font-weight: 700;
 }
+/* what I do section style start */
 .what_I_do{
     margin-bottom: 0;
 }
@@ -139,4 +140,23 @@ main{
     color: #757575;
     font-weight: 400;
     line-height: 28px; /* 175% */
+}
+/* A summary of My Resume style start */
+
+.resume_summary_title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+     
+}
+.resume_title{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume_container{
+    display: flex;
+    gap: 24px;
 }
